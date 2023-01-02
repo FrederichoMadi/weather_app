@@ -1,0 +1,31 @@
+name: weatherapp
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  geolocator: ^9.0.2
+  google_fonts: ^3.0.1
+  get_storage: 2.0.3
+  flutter_svg: ^1.1.6
+  timeago: ^3.3.0
+  intl: ^0.17.0
+  pull_to_refresh: ^2.0.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/images/
+
+
